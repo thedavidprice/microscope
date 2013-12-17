@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Comments = new Meteor.Collection('comments');
 
 Meteor.methods({
@@ -27,6 +26,3 @@ Meteor.methods({
     return Comments.insert(comment);
   }
 });
-=======
-Comments = new Meteor.Collection('comments');
->>>>>>> 59b62f5981857cfdab6fcd1ea1b4f548b06790a5
