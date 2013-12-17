@@ -26,3 +26,5 @@ Meteor.methods({
     return Comments.insert(comment);
   }
 });
+
+//just for fun
