@@ -7,7 +7,10 @@ if (Posts.find().count() === 0) {
     profile: { name: 'Tom Coleman' }
   });
   var tom = Meteor.users.findOne(tomId);
+<<<<<<< HEAD
   
+=======
+>>>>>>> 59b62f5981857cfdab6fcd1ea1b4f548b06790a5
   var sachaId = Meteor.users.insert({
     profile: { name: 'Sacha Greif' }
   });
